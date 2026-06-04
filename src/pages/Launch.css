@@ -1,0 +1,103 @@
+.launch-page {
+  min-height: 100vh;
+  background: #0f071f;
+  padding: 80px 0;
+  color: white;
+}
+
+.launch-wrapper {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 40px;
+  backdrop-filter: blur(12px);
+}
+
+.back-btn {
+  border: none;
+  background: transparent;
+  color: #df7873;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.launch-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.launch-subtitle {
+  text-align: center;
+  color: #b7b7c9;
+  margin-bottom: 40px;
+}
+
+.custom-input {
+  background: #120a2b !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  color: white !important;
+  min-height: 55px;
+}
+
+.custom-input:focus {
+  border-color: #df7873 !important;
+  box-shadow: 0 0 0 0.2rem rgba(223, 120, 115, 0.25) !important;
+  background: #120a2b !important;
+}
+
+.custom-input::placeholder {
+  color: #9d9db5;
+}
+
+.form-select.custom-input {
+  color: white;
+}
+
+.wallet-icon {
+  background: #120a2b;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #9d9db5;
+}
+
+.terms-checkbox {
+  color: #cfcfe4;
+}
+
+.form-check-input:checked {
+  background-color: #df7873;
+  border-color: #df7873;
+}
+
+.launch-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.register-btn {
+  flex: 1;
+  background: #df7873;
+  color: #fff;
+  padding: 14px;
+  border: none;
+}
+
+.register-btn:hover {
+  background: #ea8b85;
+}
+
+.wallet-btn {
+  flex: 1;
+  border: 1px solid #df7873;
+  color: #df7873;
+  padding: 14px;
+}
+
+.wallet-btn:hover {
+  background: rgba(223,120,115,0.1);
+}
